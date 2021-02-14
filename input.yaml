@@ -1,0 +1,22 @@
+mongoDB_details:
+    link: 'mongodb://localhost:27017/'
+    db_name: 'USA_data'
+    unemp_collection_name: 'unemployment_data'
+    edu_collection_name: 'education_data'
+    crime_collection_name: 'crime_data'
+postgresqlDB_details:
+    username: 'postgres'
+    password: 'kerberos12'
+    pg_host: '127.0.0.1'
+    pg_port: '5432'
+    pg_db: 'postgres'
+dataset_links:
+    unemlpoyment_data_link: 'https://data.bls.gov/map/MapToolServlet'
+    crime_data_link: 'https://www.ucrdatatool.gov/Search/Crime/State/OneYearofData.cfm'
+data_period:
+    start_year: 1994
+    end_year: 2014
+fetch_data_website:
+    web_scrape_unemployment: True
+    web_scrape_crime: True
+    extract_education: True
